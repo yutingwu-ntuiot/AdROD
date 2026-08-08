@@ -110,6 +110,8 @@ with AdROD, the detection is recovered before the stop line.
   privacy information.
 - [`configs/`](configs/): paper-reported HyperNetwork settings and evaluation
   protocol descriptions.
+- [`docs/ARCHITECTURE.md`](docs/ARCHITECTURE.md): non-executable architecture
+  specification for the YOLOv5/HyperNetwork ensemble and its two serving modes.
 - [`results/reported_results.csv`](results/reported_results.csv): selected
   paper-reported ASR values.
 
