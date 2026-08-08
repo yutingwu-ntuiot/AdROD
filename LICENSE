@@ -1,0 +1,18 @@
+Copyright (c) 2026 AdROD authors. All rights reserved.
+
+Except as stated below, this repository's selected demonstration media,
+configuration summaries, result summaries, released patch assets,
+author-collected evaluation sequences, and release-integrity checker are all
+rights reserved. Except as required to view or download the repository through
+GitHub, no permission is granted to copy, modify, redistribute, publicly
+perform, publicly display, or create derivative works from these materials
+without prior written permission from the applicable rightsholder(s).
+
+The COCO-derived images in `evaluation_data/nonconsecutive_data/coco_person`
+and `evaluation_data/nonconsecutive_data/coco_stopsign` are not covered by the
+all-rights-reserved statement above. They remain subject to the COCO license
+and attribution stated in `DATASET_LICENSES.md`.
+
+The AdROD implementation, model weights, patch-generation code, and executable
+experiment pipeline are not included. No patent rights are licensed. See
+NOTICE for the public-release boundary.

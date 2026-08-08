@@ -1,0 +1,13 @@
+AdROD technology may be subject to patent rights held or controlled by the
+applicable rightsholder(s), including rights associated with the NTU patent
+process.
+
+This repository deliberately excludes the AdROD implementation, trained model
+weights, patch-generation code, and executable experiment pipeline. Released
+adversarial-patch images, configuration metadata, and evaluation datasets are
+provided as research assets only. Nothing in this repository grants a patent
+license, a covenant not to sue, or permission to implement, use, reproduce,
+distribute, or deploy the excluded technology.
+
+The demonstration media, configuration summaries, and result summaries that
+are present are governed only by the accompanying LICENSE.

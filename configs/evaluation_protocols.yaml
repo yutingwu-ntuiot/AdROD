@@ -1,0 +1,27 @@
+# Protocol descriptions from the accepted paper. No runnable evaluator is
+# included in this public companion release. Released patch assets are under
+# patches/ and released evaluation images are under evaluation_data/.
+metrics:
+  primary: attack_success_rate
+  direction: lower_is_better
+protocols:
+  - name: COCO person, Hip square patch, AdROD-I
+    data: COCO validation subset
+    attack_application: digital
+    target_class: person
+    paper_reference: Table IV
+  - name: COCO stop sign, SysAdv patch, AdROD-I
+    data: COCO validation subset
+    attack_application: digital
+    target_class: stop sign
+    paper_reference: Table IV
+  - name: outdoor physical road sequence, AdROD-II
+    data: author-collected consecutive road sequence
+    attack_application: physical
+    target_class: stop sign
+    paper_reference: Figure 12 and Section VI-D1
+  - name: Faster R-CNN physical testbed
+    data: physical testbed sequence
+    attack_application: physical
+    target_class: stop sign
+    paper_reference: Table V

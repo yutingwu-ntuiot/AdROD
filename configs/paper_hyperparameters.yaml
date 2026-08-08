@@ -1,0 +1,18 @@
+# Paper-reported configuration summary; this is not an executable config.
+base_detector: yolov5s
+pretraining_dataset: COCO
+image_size: 640
+hypernetwork:
+  low_rank_rank: 4
+  block_size: 4
+  diversity_coefficient_beta: 1.0
+training:
+  epochs: 9
+  batch_size: 32
+  ensemble_size: 3
+  optimizer: Adam
+  learning_rate_initial: 0.0001
+  learning_rate_final: 0.00001
+  scheduler: cosine_annealing
+  seed: 324
+generated_yolov5_layers: [0, 1, 3, 5, 7, 10, 14, 18, 21]

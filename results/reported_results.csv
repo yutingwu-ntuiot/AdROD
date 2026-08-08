@@ -1,0 +1,5 @@
+protocol,paper_reference,metric,value,notes
+COCO person Hip square patch AdROD-I,Table IV,ASR,0.188,Digital patch evaluation
+COCO stop-sign SysAdv patch AdROD-I,Table IV,ASR,0.195,Digital patch evaluation
+Outdoor physical road sequence AdROD-II,Figure 12 and Section VI-D1,ASR,0.058,Physical target-hide rate
+Faster R-CNN physical testbed,Table V,ASR,0.071,Physical testbed protocol
