@@ -5,6 +5,8 @@ Adversarially Robust Object Detection for Autonomous Driving**. It provides
 demonstration media, released adversarial patches, evaluation images,
 paper-reported configurations, and result summaries.
 
+📄 **Paper:** [AdROD camera-ready PDF](AdROD_camera_ready.pdf)
+
 > **Public research companion.** The AdROD implementation, trained
 > checkpoints, patch-generation code, and runnable training/evaluation pipeline
 > are not included because the technology is subject to patent-related
